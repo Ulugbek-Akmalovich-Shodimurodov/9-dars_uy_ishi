@@ -1,0 +1,113 @@
+.footer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #7352FF;
+    border-radius: 0px;
+}
+.footer__container {
+}
+.footer__wrapper {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.footer__wrapper-box {
+    max-width: 360px;
+    width: 100%;
+}
+.footer__wrapper-box-heading {
+    margin: 0;
+    padding: 0;
+    max-width: 229px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.footer__form {
+    position: relative;
+    max-width: 360px ;
+    width: 100%;
+    margin-top: 15px;
+}
+.footer__form-input {
+    max-width: 360px;
+    width: 100%;
+    margin: 0;
+    padding-top: 11px;
+    padding-bottom: 10px;
+    padding-left: 22px;
+    font-weight: 400;
+    font-size: 13px;
+    border: 1px solid #FFFFFF;
+    background: #7352FF;
+    border-radius: 12.7918px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.footer__form-span {
+    position: absolute;
+    top: 11px;
+    right: 20px;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.footer__wrapper-logo {
+    text-decoration: none;
+}
+.footer__logo-img {
+    display: block;
+}
+.footer__nav {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    grid-area: 20px;
+    margin-top: 100px;
+}
+.footer__nav-box {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+.footer__nav-box-link {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer__nav-link-img {
+    display: block;
+}
+.footer__nav-box2 {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+.footer__nav-box2-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer__nav-box2-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}

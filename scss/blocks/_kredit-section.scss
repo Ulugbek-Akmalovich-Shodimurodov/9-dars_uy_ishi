@@ -1,0 +1,117 @@
+/* kredit section */
+
+.section_box{
+    width: 100%;
+}
+
+.kontract-list{
+    width: 100%;
+    min-width: 600px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+
+    // overflow-x: auto;
+}
+.kontract-list::-webkit-scrollbar
+{
+    width: 0;
+}
+.kontract-list__title{
+    margin: 5px;
+}
+.massenger-list__title-item{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+
+    text-align: right;
+
+    color: #616A7E;
+}
+.massenger-title__item{
+    font-weight: 400;
+    font-size: 16px;
+    // line-height: 22px;
+
+
+    color: #191919;
+}
+
+
+.bank-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.bank-logo__img{
+    width: 30px;
+    height: 30px;
+    // margin-top: 15px;
+}
+.bank__title{
+    margin: 0;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #333333;
+}
+
+
+
+
+.kontract-list__line{
+    border-bottom: none;
+    width: 99%;
+    min-width: 600px;
+}
+.massenger-section__box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+    padding: 40px;
+
+    border-radius: 15px;
+    border: 2px solid #BABEC3;
+}
+.massenger-section__box-date-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    /* or 120% */
+
+
+    color: #191919;
+}
+.massenger-section__box-text{
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+color: #616A7F;
+}
+
+.massenger-logo__box{
+    width: 280px;
+
+    text-align: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.massenger-logo__box-item{
+    width: 40px;
+    height: 40px;
+
+}
