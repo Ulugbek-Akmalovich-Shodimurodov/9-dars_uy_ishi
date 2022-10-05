@@ -5,17 +5,17 @@
 // let canvas = document.getElementById('canvas');
 // let context = canvas.getContext('2d');
 
-// let img = new Image();
+let img = new Image();
 
-// img.src = './img/carousel-img.png';
+img.src = './img/carousel-img.png';
 
-// img.onload = function(){
+img.onload = function(){
 
-//     // context.imageSmoothingEnabled = true;
+    // context.imageSmoothingEnabled = true;
 
-//     context.drawImage(img, -100, -100, 200, 200);
+    context.drawImage(img, 100, 100, 200, 200);
     
-// }
+} 
 
 
 // context.moveTo(0, 00);
@@ -45,10 +45,11 @@
 
 // };
 
-// var canvas = document.getElementById("canvas"); 
-// var context = canvas.getContext("2d"); 
-// var x = 0; 
-// var y = 100; 
+var canvas = document.getElementById("canvas"); 
+var context = canvas.getContext("2d"); 
+var x = 0; 
+var y = 100; 
+var t;
  
 // function draw() { 
 //   context.beginPath(); 
@@ -56,3 +57,26 @@
 //   context.fillStyle="red"; 
 //   context.fill(); 
 // }
+setInterval(
+    // img.onload = function(){
+function draw() { 
+    // context.drawImage(img, 100, 100, 200, 200);
+    context.clearRect(0, 0, 600, 600)
+    context.beginPath(); 
+    context.rect(x, y, 100, 100); 
+    context.fillStyle = "red"; 
+    context.fill(); 
+
+    t = Date.now();
+
+    // console.log(t);
+   
+    x += 1; 
+    y+=1;
+    if (x >= 600 && y >=600) { 
+      x = -100 ;
+      y= -100;
+    } 
+  }
+  , 1)
+  ;
